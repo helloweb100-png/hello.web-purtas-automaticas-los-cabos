@@ -690,8 +690,7 @@ html.js.ready .wa-float { opacity: 1; translate: 0 0; }
   .auto-grid { grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 56px; align-items: center; }
   .demo { grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 56px; }
 
-  .work-grid { grid-template-columns: minmax(0, 1fr) 300px; gap: 28px; align-items: start; }
-  .vid--tall { justify-self: end; }
+  .work-grid { grid-template-columns: minmax(0, 300px); justify-content: center; gap: 28px; align-items: start; }
 
   .timeline { padding: 76px 0 0; }
   .tl-line { left: 28px; right: 28px; top: 27px; bottom: auto; width: auto; height: 2px; }
